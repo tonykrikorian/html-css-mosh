@@ -1,3 +1,19 @@
-p {
-  color: orange;
+#products p {
+  /*Selecciona todos los parrafos que estan dentro del elemento con id products*/
+  color: blueviolet;
+}
+
+#products > p {
+  /*Selecciona el parrafo que es hijo directo del elemento con id products*/
+  color: aquamarine;
+}
+
+#products + p {
+  /*Selecciona el parrafo que esta justo despues(Fuera del elemento) del elemento con id products */
+  color: chartreuse;
+}
+
+#products ~ p {
+  /*Selecciona todos los parrafos que son vecinos(Fuera del elemento con id products)  directos del elemento con id products */
+  color: black;
 }
