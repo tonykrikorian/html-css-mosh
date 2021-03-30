@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with tables</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid gray;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      thead th {
+        background-color: black;
+        color: whitesmoke;
+      }
+
+      td {
+        text-align: center;
+      }
+
+      tr:hover {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">Expenses</th>
+        </tr>
+        <tr>
+          <th>Id</th>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Marketing</td>
+          <td>100$</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Accounting</td>
+          <td>200$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">Total:</th>
+          <th>300$</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
