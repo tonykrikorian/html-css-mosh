@@ -1,0 +1,22 @@
+table,
+th,
+td {
+  border: 1px solid #c4dcf3;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+thead tr,
+tfoot tr {
+  background: #427fef;
+  color: white;
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eef7ff;
+}
+
+tbody tr:hover {
+  background: #eef7ff;
+}
