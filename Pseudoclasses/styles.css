@@ -1,0 +1,31 @@
+article p:first-child {
+  /*Selecciona el primer elemento que es hijo directo del elemento article*/
+  font-size: 150%;
+  font-style: italic;
+}
+
+article p:first-of-type {
+  font-size: 150%; /*Aplica los estilos a la primera ocurrencia de cada tipo de objeto dentro de article*/
+  font-style: italic;
+  color: blueviolet;
+}
+
+article p:last-of-type {
+  /*Selecciona el ultimo elemento de tipo  parrafo dentro del article*/
+  color: brown;
+}
+
+/*Selecciona los elementos impares del tipo li dentro de ul y aplica los estilos*/
+ul li:nth-child(odd) {
+  color: pink;
+}
+
+a:link,
+a:visited {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+}
