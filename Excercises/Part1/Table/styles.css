@@ -13,6 +13,9 @@ tfoot tr {
   text-align: left;
 }
 
+tbody tr {
+  font-weight: lighter;
+}
 tbody tr:nth-child(odd) {
   background: #eef7ff;
 }
