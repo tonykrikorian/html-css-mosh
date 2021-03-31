@@ -1,0 +1,16 @@
+/*En este caso los elementos dentro del parrafo heredan los estilos del parent element */
+p {
+  color: dodgerblue;
+  border: 1px solid black;
+}
+
+/*El elemento strong toma su valor color inicial, ya no hereda el color del elemento p*/
+strong {
+  color: initial;
+  border: inherit; /*Hereda el border del parent element p*/
+}
+
+span {
+  color: deeppink;
+  border: inherit; /*Hereda el border del parent element p*/
+}
