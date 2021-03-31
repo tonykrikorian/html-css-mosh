@@ -1,0 +1,38 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(dodgerblue, yellow);
+}
+.box {
+  width: 200px;
+  height: 200px; /*Indicando la dirección del gradiente*/
+  background: linear-gradient(to right, dodgerblue, yellow);
+}
+.box {
+  width: 200px;
+  height: 200px; /*Indicando la dirección del gradiente*/
+  background: linear-gradient(to bottom right, dodgerblue, yellow);
+}
+
+.box {
+  width: 200px;
+  height: 200px; /*Indicando la dirección del gradiente y porcentage*/
+  background: linear-gradient(45deg, dodgerblue, yellow 75%);
+}
+.box {
+  width: 200px;
+  height: 200px; /*Indicando la dirección del gradiente y porcentage tercer color*/
+  background: linear-gradient(45deg, dodgerblue, yellow 75%, tomato);
+}
+
+.box {
+  width: 200px;
+  height: 200px; /*Gradiente radial*/
+  background: radial-gradient(circle, dodgerblue, yellow);
+}
+
+.box {
+  width: 200px;
+  height: 200px; /*Gradiente radial indicando forma y posicison*/
+  background: radial-gradient(circle at top left, dodgerblue, yellow);
+}
