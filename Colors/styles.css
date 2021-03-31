@@ -1,0 +1,25 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(245, 239, 66); /*Colores RGB*/
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(
+    245,
+    239,
+    66,
+    0.5
+  ); /*Colores RGBA, el cuarto valor es entre 0 y 1 es la opacidad*/
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hsl(
+    134,
+    79%,
+    52%
+  ); /*Colores RGBA, el cuarto valor es entre 0 y 1 es la opacidad*/
+}
