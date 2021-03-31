@@ -1,0 +1,27 @@
+/*Aplica los estilos a la primera letra del parrafo*/
+p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/*Selecciona la primera linea del parrafo*/
+p::first-line {
+  font-weight: bold;
+}
+
+/*El texto seleccionado es de color rosado*/
+::selection {
+  color: pink;
+}
+
+/*Agrega el elemento ... antes del contenido de cada parrafo*/
+p::before {
+  color: dodgerblue;
+  content: ".....";
+  display: block;
+}
+/*Agrega el elemento ... despues del contenido de cada parrafo*/
+p::after {
+  content: "-------";
+  display: block;
+}
