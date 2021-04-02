@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px;
+  border: 2px solid lightgray;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(2, 100px); /*grid-template: filas/columnas*/
+  border: 2px solid lightgray;
+  justify-items: center; /*Alinear horizontal*/
+  align-items: center; /*Alinear vertical*/
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(3, 100px) / 30fr 70fr; /*grid-template: filas/columnas*/
+  border: 2px solid lightgray;
+  justify-items: center; /*Alinear horizontal*/
+  align-items: center; /*Alinear vertical*/
+  gap: 10px 10px;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+}
+
+.box-one {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
