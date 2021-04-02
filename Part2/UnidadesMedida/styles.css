@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: gold;
+  border-top: 5px solid goldenrod;
+}
+.box {
+  /*50% del ancho del elemento que lo contiene, en este caso body*/
+  width: 50%;
+  height: 100vh;
+  background-color: gold;
+  border-top: 5px solid goldenrod;
+}
+
+.box {
+  /*50% del ancho del elemento que lo contiene, en este caso body*/
+  width: 50rem;
+  height: 100vh;
+  background-color: gold;
+  border-top: 5px solid goldenrod;
+}
