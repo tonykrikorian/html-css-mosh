@@ -1,0 +1,15 @@
+*,
+::after,
+::before {
+  box-sizing: border-box; /*El tamaño de la caja no se modifica con el padding y el border
+    pero internamente se ajustan los tamaños*/
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  padding: 20px;
+  border: 5px orange solid;
+  display: inline-block;
+}
