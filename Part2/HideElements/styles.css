@@ -1,0 +1,8 @@
+.first {
+  display: none;
+  /*Se esconde el primer parrafo pero el segundo  aparece en el inicio*/
+}
+
+.first {
+  visibility: hidden; /*El primer parrafo no esta, pero su espacio aún esta asignado*/
+}
