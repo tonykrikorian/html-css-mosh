@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  /*3 rows x 2 columns de 100px*/
+  grid-template: repeat(3, 100px) / repeat(2, 100px); /*shorthand*/
+  border: 2px solid lightgray;
+  justify-items: center; /*Centra el elemento .box default value stretch*/
+  align-items: center; /*Centra el elemento .box default value stretch*/
+  justify-content: center; /*Centrar horizontalmente el grid respecto a su contenedor div.container*/
+  align-content: center; /*Centrar verticalmente el grid respecto a su contenedor div.container*/
+}
+
+.container {
+  display: grid;
+  /*3 rows x 2 columns de 100px*/
+  grid-template: repeat(3, 100px) / repeat(2, 100px); /*shorthand*/
+  border: 2px solid lightgray;
+  justify-items: stretch; /*Centra el elemento .box default value stretch*/
+  align-items: stretch; /*Centra el elemento .box default value stretch*/
+  justify-content: center; /*Centrar horizontalmente el grid respecto a su contenedor div.container*/
+  align-content: center; /*Centrar verticalmente el grid respecto a su contenedor div.container*/
+}
+/*Para que los elementos dentro del grid estiren y ocupen todo el espacio
+disponible, no deben tener width*/
+.box {
+  /* width: 5rem; */
+  /* height: 5rem; */
+  background-color: gold;
+}
