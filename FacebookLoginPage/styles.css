@@ -8,13 +8,32 @@ body {
 }
 
 .login-box-container {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   width: 25rem;
   height: 10rem;
+  justify-content: center;
+  align-items: center;
+
   margin-left: 1rem;
 }
 .login-box-styles {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.login-text-box {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 0.7rem 0.7rem;
+  width: 21rem;
+}
+
+.login-text-box:focus {
+  outline: lightgray;
+}
+
+.login-text-box::placeholder {
+  color: gray;
 }
