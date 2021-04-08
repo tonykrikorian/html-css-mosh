@@ -72,19 +72,27 @@ body {
   font-weight: 600;
 }
 
+.main-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo-and-text {
-  width: 28rem;
+  width: 500px;
 }
 .logo-and-text img {
   width: 19rem;
   height: 6.7rem;
 }
 
-.logo-and-text p {
+.logo-and-text h2 {
   font-family: "sfprodisplay";
-  font-size: 28px;
+  font-size: 26px;
   font-weight: normal;
   line-height: 2rem;
   margin-left: 2rem;
-  margin-top: 0;
+  margin-top: -20px;
 }
