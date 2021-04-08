@@ -19,6 +19,12 @@ body {
   font-family: "opensans", Arial, Helvetica, sans-serif; /*Aplicamos o heredamos esta font stack a todos los elementos*/
 }
 
+body {
+  margin: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /*Aplicamos o heredamos esta font stack a todos los elementos*/
+}
+
 h1 {
   font-family: "opensans_bold", Georgia, "Times New Roman", Times, serif; /*Se aplica esta fuente a los elementos h1*/
 }
