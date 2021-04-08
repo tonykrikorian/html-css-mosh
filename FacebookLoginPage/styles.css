@@ -76,6 +76,7 @@ body {
   color: #166fe5;
   font-family: "sfprodisplay";
   font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .create-account-btn button {
@@ -118,19 +119,28 @@ body {
 
 .crear-pagina {
   width: 25rem;
-  font-size: "sfprodisplay-semibold";
-  font-size: 16px;
-  font-weight: 600;
-  color: black;
   text-align: center;
   grid-column: 6;
   grid-row: 5;
   margin-top: 1rem;
 }
-.crear-pagina span {
-  font-weight: initial;
-}
 
 .crear-pagina a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   text-decoration: none;
+}
+
+.crear-pagina :hover {
+  text-decoration: underline;
+}
+
+.crear-pagina a:visited {
+  color: black;
+}
+
+.crear-pagina span {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
