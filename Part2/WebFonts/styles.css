@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "opensans_bold";
+  src: url("fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 10px;
+  font-family: "opensans", Arial, Helvetica, sans-serif; /*Aplicamos o heredamos esta font stack a todos los elementos*/
+}
+
+h1 {
+  font-family: "opensans_bold", Georgia, "Times New Roman", Times, serif; /*Se aplica esta fuente a los elementos h1*/
+}
+
+p {
+  font-weight: normal; /*Que tan negrita es la fuente */
+  font-style: italic; /*Establece el estilo de la fuente*/
+  font-size: 1rem; /*Tamaño de la fuente*/
+  color: #333; /*Color de la fuente*/
+}
