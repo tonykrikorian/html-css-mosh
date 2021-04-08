@@ -53,6 +53,8 @@ body {
 
 .login-text-box:focus {
   outline: lightgray;
+  border: 1px solid dodgerblue;
+  box-shadow: 0px 0px 5px 0px rgba(30, 144, 255, 0.37);
 }
 
 .login-text-box::placeholder {
@@ -90,14 +92,6 @@ body {
   font-weight: 600;
 }
 
-/* .main-container {
-  display: flex;
-  height: 100vh;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-} */
-
 .logo-and-text {
   width: 500px;
   grid-column: 5;
@@ -132,7 +126,7 @@ body {
   text-decoration: none;
 }
 
-.crear-pagina :hover {
+.crear-pagina a:hover {
   text-decoration: underline;
 }
 
