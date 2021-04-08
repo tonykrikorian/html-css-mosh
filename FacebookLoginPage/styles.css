@@ -3,8 +3,22 @@
   src: url("./fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
 }
 
+@font-face {
+  font-family: sfprodisplay-semibold;
+  src: url("./fonts/FontsFree-Net-SFProText-Semibold.ttf");
+}
+
 body {
   background-color: #f0f2f5;
+}
+
+.main-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 .login-box-container {
@@ -19,6 +33,8 @@ body {
   margin-top: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  grid-column: 6;
+  grid-row: 4;
 }
 .login-box-styles {
   background-color: #fff;
@@ -72,16 +88,18 @@ body {
   font-weight: 600;
 }
 
-.main-container {
+/* .main-container {
   display: flex;
   height: 100vh;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .logo-and-text {
   width: 500px;
+  grid-column: 5;
+  grid-row: 4;
 }
 .logo-and-text img {
   width: 19rem;
@@ -95,4 +113,23 @@ body {
   line-height: 2rem;
   margin-left: 2rem;
   margin-top: -20px;
+}
+
+.crear-pagina {
+  width: 25rem;
+  font-size: "sfprodisplay-semibold";
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  grid-column: 6;
+  grid-row: 5;
+  margin-top: 1rem;
+}
+.crear-pagina span {
+  font-weight: initial;
+}
+
+.crear-pagina a {
+  text-decoration: none;
 }
