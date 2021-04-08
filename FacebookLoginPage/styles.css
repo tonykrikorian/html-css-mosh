@@ -11,11 +11,14 @@ body {
   display: flex;
   flex-direction: column;
   width: 25rem;
-  height: 10rem;
-  justify-content: center;
+  height: 20rem;
+  justify-content: space-around;
   align-items: center;
-
   margin-left: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .login-box-styles {
   background-color: #fff;
@@ -24,10 +27,11 @@ body {
 }
 
 .login-text-box {
+  display: block;
+  width: 20rem;
   border-radius: 5px;
   border: 1px solid lightgray;
-  padding: 0.7rem 0.7rem;
-  width: 21rem;
+  padding: 1rem 1rem;
 }
 
 .login-text-box:focus {
@@ -36,4 +40,34 @@ body {
 
 .login-text-box::placeholder {
   color: gray;
+  font-family: "sfprodisplay";
+}
+
+.login-btn button {
+  width: 22rem;
+  background-color: #166fe5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem;
+  font-family: "sfprodisplay";
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.olvidar-password a {
+  color: #166fe5;
+  font-family: "sfprodisplay";
+  font-size: 0.9rem;
+}
+
+.create-account-btn button {
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem;
+  font-family: "sfprodisplay";
+  font-size: 1rem;
+  font-weight: 600;
 }
