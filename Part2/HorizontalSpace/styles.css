@@ -1,0 +1,22 @@
+body {
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem /*Interlineado Debe ser 1.5 veces el valor del font-size*/;
+}
+
+.parrafo-container {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+h1 {
+  margin: 3rem 0 0.5rem; /*Top margin debe ser mayor que bottom margin*/
+  letter-spacing: -2px; /*Se usa en pixel y es mejor para los headers */
+}
+
+p {
+  width: 60ch; /*Longitud de 50 ceros, queda mas facil de leer el texto*/
+}
