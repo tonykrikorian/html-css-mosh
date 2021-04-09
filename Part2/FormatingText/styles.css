@@ -1,0 +1,37 @@
+body {
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem /*Interlineado Debe ser 1.5 veces el valor del font-size*/;
+}
+
+.parrafo-container {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+h1 {
+  margin: 3rem 0 0.5rem; /*Top margin debe ser mayor que bottom margin*/
+  letter-spacing: -2px; /*Se usa en pixel y es mejor para los headers */
+}
+
+p {
+  width: 60ch; /*Longitud de 50 ceros, queda mas facil de leer el texto*/
+  white-space: nowrap; /*Todo el texto se coloca en una unica linea*/
+  text-align: left; /*La mejor opción para la webkit */
+  text-indent: 1rem; /*Sangria al principio del parrafo*/
+  text-decoration: underline; /*Decorar el texto*/
+  text-transform: capitalize; /*Transforma el texto en mayuscula, miniscula o cada palabra*/
+  overflow: hidden; /*Truncar el texto que este afuera del contenedor*/
+  text-overflow: ellipsis; /*Añade puntos suspensivos despues del texto truncado*/
+}
+
+p {
+  width: 60ch;
+  column-count: 2; /*Crear el texto en 2 columnas*/
+  column-gap: 1rem; /*Separar o añadir margen a las columnas del texto*/
+  column-rule: 3px dotted #999; /*Agrega una linea divisoria entre las columnas*/
+  direction: rtl; /*Se aplica a nivel de body para que la pagina este de derecha a izquierda*/
+}
