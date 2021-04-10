@@ -1,0 +1,13 @@
+body {
+  background-image: url(./images/bg-paper.jpg); /*Setear un imagen como background*/
+  background-repeat: repeat-x; /*Repite la imagen a lo largo del eje x del viewport, 
+  este valor depende mucho de ls dimensiones de la imagen*/
+  background-position: 100px 200px; /*Posiciona la imagen del background 100px en el eje x y 100px en el eje y*/
+}
+body {
+  background-image: url(./images/bg-paper@2x.jpg); /*Setear un imagen como background*/
+  background-repeat: no-repeat; /*Por defecto la imagen se repite para abarcar todo el espacio disponible*/
+  background-size: cover; /*Setea el width y el height de lal background, se puede usar el valor cover 
+  para abarcar todo eñ viewport*/
+  background-attachment: fixed; /*El background no se mueve y permanece fijo relativo al viewport*/
+}
