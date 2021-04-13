@@ -1,17 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 .main-container-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   gap: 0.5rem;
 }
 
 .filters {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .filter {
-  width: 6em;
+  width: 5rem;
   border-radius: 8px;
   background-color: dodgerblue;
   color: white;
@@ -24,11 +29,15 @@
 }
 
 .filters input {
-  flex-basis: 0;
+  flex-basis: 10rem;
   flex-grow: 1;
   outline: lightgray;
   padding: 0.75em;
   border-radius: 8px;
+}
+
+.last {
+  margin-right: 5rem;
 }
 .box {
   background-color: gold;
