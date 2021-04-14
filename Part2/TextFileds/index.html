@@ -9,13 +9,29 @@
   </head>
   <body>
     <form action="">
-      <input type="text" list="countries" autocomplete="off" />
-      <datalist id="countries">
-        <option data-value="1">EEUU</option>
-        <option data-value="2">Chile</option>
-        <option data-value="3">Alemania</option>
-        <option data-value="4">China</option>
-      </datalist>
+      <select>
+        <option value="">Select a course...</option>
+        <option value="1">HTML</option>
+        <option value="2">C#</option>
+        <option value="3">Javascript</option>
+      </select>
+      <select multiple>
+        <option value="1">HTML</option>
+        <option value="2">C#</option>
+        <option value="3">Javascript</option>
+      </select>
+      <select>
+        <optgroup label="frontend courses">
+          <option value="1">HTML</option>
+          <option value="2">React</option>
+          <option value="3">Javascript</option>
+        </optgroup>
+        <optgroup label="backend courses">
+          <option value="1">C#</option>
+          <option value="2">Typescript</option>
+          <option value="3">Go</option>
+        </optgroup>
+      </select>
     </form>
   </body>
 </html>
