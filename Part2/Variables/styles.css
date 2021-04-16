@@ -1,0 +1,16 @@
+:root {
+  /*Corresponde al elemento HTML, acá se declaran las variables globales*/
+  --primary-color: #ffd700; /*Variable global*/
+  --border-size: 2px; /*Variable global*/
+  --border-radius: 10px; /*Variable global*/
+}
+
+.one {
+  background: var(
+    --primary-color
+  ); /*Se usa la funcion var() para asignar la variable*/
+}
+
+.gold {
+  background-color: var(--primary-color);
+}
