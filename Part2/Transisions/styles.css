@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  transition: transform 0.5s linear 1s; /*transitions aplica una animación a cualquierpropiedad de css*/
+}
+
+.box:hover {
+  transform: rotate(45deg); /*Rotar el elemento 15 grados*/
+}
