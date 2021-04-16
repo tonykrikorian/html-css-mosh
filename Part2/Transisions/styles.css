@@ -5,13 +5,32 @@ body {
   height: 100vh;
 }
 
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.5);
+  }
+
+  50% {
+    transform: rotate(45deg);
+    background: tomato;
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
 .box {
   width: 100px;
   height: 100px;
   background-color: gold;
-  transition: transform 0.5s linear 1s; /*transitions aplica una animación a cualquierpropiedad de css*/
-}
-
-.box:hover {
-  transform: rotate(45deg); /*Rotar el elemento 15 grados*/
+  animation-name: pop; /*Nombre de la animación*/
+  animation-duration: 4s; /*Duración de la animación*/
+  animation-delay: 1s; /*Delay de la animación*/
+  animation-iteration-count: 3; /*Cuantas veces se ejecuta la animación*/
+  animation-timing-function: ease-in; /*Funcion de ejecución*/
+  animation-direction: normal; /*Orden de ejecución de la animación*/
 }
