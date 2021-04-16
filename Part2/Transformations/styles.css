@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+
+.box:hover {
+  transform: rotate(45deg); /*Rotar el elemento 15 grados*/
+}
+
+.box:hover {
+  transform: scale(2); /*Escalar el elemento 2 veces*/
+}
+
+.box:hover {
+  transform: skew(15deg); /*Estirar el elemento 15 grados a la derecha*/
+}
+
+.box:hover {
+  transform: translate(
+    2rem,
+    1rem
+  ); /*Mueve el elemento 2rem en el ejeX y 1rem en el eje Y*/
+}
+
+/*Es posible combinar las transformations*/
+.box:hover {
+  transform: rotate(45deg) translateX(3rem);
+}
+
+/*Transformaciones en 3D, en este caso, al hacer hover, el objeto 
+se aleja 5rem de nuestra perspectiva*/
+.box2:hover {
+  transform: perspective(200px) translateZ(-5rem);
+}
+
+/*Rotar el espacio tridimensional por el ejeY*/
+.box2:hover {
+  transform: perspective(200px) rotateY(80deg);
+  transform-origin: 0 50%; /*Setear el origen de rotacion*/
+}
